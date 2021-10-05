@@ -1,7 +1,7 @@
 const ENDPOINT = "https://rickandmortyapi.com/api/character";
 
-const ENDPOINT_OPTIONAL =
-  "https://raw.githubusercontent.com/Adalab/ricky-morty/master/data/rick-y-morty.json";
+
+  
 
   const getCharactersFromApi = () => {
   return fetch(ENDPOINT)
@@ -21,3 +21,5 @@ const ENDPOINT_OPTIONAL =
     });
 };
 export default getCharactersFromApi;
+/*const ENDPOINT_OPTIONAL =
+  "https://raw.githubusercontent.com/Adalab/ricky-morty/master/data/rick-y-morty.json";*/

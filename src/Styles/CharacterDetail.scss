@@ -1,0 +1,41 @@
+@import "./Variables";
+@import "./Reset";
+.human {
+  width: 20px;
+  height: 20px;
+}
+.alien {
+  width: 20px;
+  height: 20px;
+}
+.death {
+  width: 20px;
+  height: 20px;
+}
+.App-section-detail {
+  height: 75vh;
+  background-color: $background-color-page;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CharacterDetail {
+  width: 700px;
+  height: 400px;
+  background-color: $background-color-detail;
+  color: $color-texts;
+  display: flex;
+
+  &__link {
+    background-color: $background-color-page;
+    color: $color-texts;
+    font-size: 20px;
+  }
+  &__image {
+    margin: 50px 0 20px 40px;
+  }
+  &__detail {
+    font-size: large;
+    margin: 130px 0 20px 20px;
+  }
+}

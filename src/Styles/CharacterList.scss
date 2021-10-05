@@ -1,0 +1,22 @@
+@import "./Variables";
+@import "./Reset";
+.CharacterList {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px 20px;
+  align-items: stretch;
+  margin: 4em;
+}
+.alert {
+  color: $background-color-detail;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 50px;
+}
+
+@media all and (min-width: 1024px) {
+  .CharacterList {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

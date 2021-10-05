@@ -1,0 +1,21 @@
+@import "./Variables";
+@import "./Reset";
+
+.App-container {
+  font-family: $font-main;
+  background-color: $background-color-page;
+  color: $color-texts;
+}
+.App-header {
+  width: 100%;
+  background-color: $background-color-page;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  &__logo {
+    height: 20vh;
+  }
+}
+.App-section-list {
+  background-color: $background-color-page;
+}
